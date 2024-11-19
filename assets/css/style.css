@@ -47,3 +47,26 @@ body {
 .container .tempo {
     font-size: 20px;
 }
+
+@media(max-width:768px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 200px;
+        height: 300px;
+    }
+    
+    .container div {
+        width: 130px;
+        height: 70px;
+    }
+
+    .container span {
+        font-size: 40px;
+    }
+
+    .container .tempo {
+        font-size: 15px;
+    }
+}
